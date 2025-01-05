@@ -8,7 +8,6 @@
 `include "utils/Addition_Subtraction.v"
 `timescale 1ns/100ps
  
-
 module mac(
     
     input wire CLK,                             //input clock

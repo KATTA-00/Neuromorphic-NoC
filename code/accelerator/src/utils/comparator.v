@@ -26,10 +26,6 @@ module comparator(
         else greater=0;
 
     end
-
-
-
-
 endmodule
 
 `endif
