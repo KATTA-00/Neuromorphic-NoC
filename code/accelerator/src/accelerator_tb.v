@@ -3,19 +3,19 @@
 // `include "potential_adder/potential_adder.v"
 `include "utils/Addition_Subtraction.v"
 `include "utils/Multiplication.v"
-`include "network_interface/network_interface.v"
-`include "neuron/neuron.v"	// Include the neuron module
+`include "accelerator.v"
+// `include "network_interface/network_interface.v"
+// `include "neuron/neuron.v"	// Include the neuron module
 
 `timescale 1ns/100ps
 
-module testbench;
-
+module accelerator_tb;
+    
     parameter number_of_neurons=10;                        //initiailize number of neurons
     reg CLK;                                                //clock
     reg clear;                                              //clear to start timestep
     reg[3:0] decay_rate;                                    //define decay rate
     reg[3:0] CLK_count;                                     //counter for clocks
-
     reg[11:0] source_addresses[0:number_of_neurons-1];          //write her simulate spike packets by sending source addresses
     reg[159:0] weights_arrays[0:number_of_neurons-1];           //initialize store weights of the connections
     reg[59:0] source_addresses_arrays[0:number_of_neurons-1];   //initialize connection by writing source addresses to the accumulators
@@ -29,107 +29,29 @@ module testbench;
     reg[11:0] spike_destination;                               //to store source address from the arrived packet
     reg[1:0] model;
     reg[31:0]a, b, c, d, u_initialize;      //for izhikevich model
-    wire[31:0] results_mac[0:number_of_neurons-1];                 //store results from the mac
-    wire[31:0] results_potential_decay[0:number_of_neurons-1];     //store results of potential decay
-    wire[31:0] final_potential[0:number_of_neurons-1];             //potential form the potential adder
     wire spike[0:number_of_neurons-1];                              //spike signifier from potential decay
-    wire[23:0] packet;                          //packet containing neuron address and sources address
 
-    genvar i;
-    // //generate 10 potential decay units
-    // generate
-    //     for(i=0; i<10; i=i+1) begin
-    //         potential_decay pd(
-    //             .CLK(CLK),
-    //             .clear(clear),
-    //             .model(model),
-    //             .neuron_address_initialization(neuron_addresses[i]),
-    //             .decay_rate(decay_rate),
-    //             .membrane_potential_initialization(membrane_potential[i]),
-    //             .output_potential_decay(results_potential_decay[i]),
-    //             .new_potential(final_potential[i])
-    //         );
-    //     end
-    // endgenerate
-
-    // //generate 10 accumulators
-    // generate
-    //     for(i=0; i<10; i=i+1) begin
-    //         mac m(
-    //             .CLK(CLK),
-    //             .neuron_address(neuron_addresses[i]),
-    //             .source_address(source_addresses[i]),
-    //             .weights_array(weights_arrays[i]),
-    //             .source_addresses_array(source_addresses_arrays[i]),
-    //             .clear(clear),
-    //             .mult_output(results_mac[i])
-    //         );
-    //     end
-    // endgenerate
-
-    // //genrate corresponding 10 potential adders
-    // generate
-    //     for(i=0; i<10; i=i+1) begin
-    //         potential_adder pa(
-    //             .clear(clear),
-    //             .v_threshold(v_threshold[i]),
-    //             .input_weight(results_mac[i]),
-    //             .decayed_potential(results_potential_decay[i]),
-    //             .model(model),
-    //             .a(a),
-    //             .b(b),
-    //             .c(c),
-    //             .d(d),
-    //             .u_initialize(u_initialize),
-    //             .final_potential(final_potential[i]),
-    //             .spike(spike[i])
-    //         );
-    //     end
-    // endgenerate
-
-    // generate 10 neurons
-    generate
-        for(i=0; i<10; i=i+1) begin
-          neuron n(
-            .CLK(CLK),
-            .clear(clear),
-            .neuron_address(neuron_addresses[i]),
-            .source_address(source_addresses[i]),
-            .weights_array(weights_arrays[i]),
-            .source_addresses_array(source_addresses_arrays[i]),
-            .v_threshold(v_threshold[i]),
-            .decay_rate(decay_rate),
-            .membrane_potential_initialization(membrane_potential[i]),
-            .model(model),
-            .a(a),
-            .b(b),
-            .c(c),
-            .d(d),
-            .u_initialize(u_initialize),
-            .spike(spike[i])
-          );
-        end
-    endgenerate    
-
-    network_interface ni1(
+    accelerator a(
         .CLK(CLK),
         .clear(clear),
-        // .spikes({spike[0],spike[1],spike[2],spike[3],spike[4],spike[5],spike[6],spike[7],spike[8],spike[9]}),
-        .spike0(spike[0]),
-        .spike1(spike[1]),
-        .spike2(spike[2]),
-        .spike3(spike[3]),
-        .spike4(spike[4]),
-        .spike5(spike[5]),
-        .spike6(spike[6]),
-        .spike7(spike[7]),
-        .spike8(spike[8]),
-        .spike9(spike[9]),
+        .decay_rate(decay_rate),
+        .source_addresses(source_addresses),
+        .weights_arrays(weights_arrays),
+        .source_addresses_arrays(source_addresses_arrays),
+        .neuron_addresses(neuron_addresses),
+        .membrane_potential(membrane_potential),
+        .v_threshold(v_threshold),
+        .downstream_connections_initialization(downstream_connections_initialization),
         .neuron_addresses_initialization(neuron_addresses_initialization),
-        .connection_pointer_initialization(connection_pointer_initialization),           //input to initialize the connection pointers
-        .downstream_connections_initialization(downstream_connections_initialization),    //input to initialize the dowanstream connections
-        .packet(packet)               //outgoing packet         
-    );
+        .connection_pointer_initialization(connection_pointer_initialization),
+        .model(model),
+        .a(a),
+        .b(b),
+        .c(c),
+        .d(d),
+        .u_initialize(u_initialize),
+        .spike(spike)
+    );    
 
     // Observe the timing on gtkwave
     initial
@@ -267,14 +189,6 @@ module testbench;
 
         #500
         $finish;   
-    end
-
-    //when packets arrive from the potential adder send the source address to the relevant mac unit 
-    always @(packet) begin
-        spike_origin = packet[23:12];               // From where the spike came
-        spike_destination = packet[11:0];           // To where it should be sent 
-
-        source_addresses[spike_destination] = spike_origin;      // Trigger the wire of the relevant accumulator
     end
 
     //invert clock every 4 seconds
