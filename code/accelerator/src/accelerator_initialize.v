@@ -139,9 +139,15 @@ module testbench;
     end
 
     // // Print the outputs when ever the inputs change
+    // initial
+    // begin
+    //     $monitor($time, "  Neuron_address: %b\n                     Membrane Potential: %b\n                     Decay Rate: %d\n                     After Potential Decay: %b\n                     Source_address: %b\n                     MAC result: %b\n                     Threshold: %b\n                     Output Potential: %b\n                     Spiked:%b", neuron_addresses[0], membrane_potential[0], decay_rate, results_potential_decay[0], source_addresses[0], results_mac[0],v_threshold[0],final_potential[0], spike[0]);
+    // end
+
+    // // Print the outputs when ever the inputs change
     initial
     begin
-        $monitor($time, "  Neuron_address: %b\n                     Membrane Potential: %b\n                     Decay Rate: %d\n                     After Potential Decay: %b\n                     Source_address: %b\n                     MAC result: %b\n                     Threshold: %b\n                     Output Potential: %b\n                     Spiked:%b", neuron_addresses[0], membrane_potential[0], decay_rate, results_potential_decay[0], source_addresses[0], results_mac[0],v_threshold[0],final_potential[0], spike[0]);
+        $monitor($time, "  Neuron_address: %b\n                     Decay Rate: %d\n                     Source_address: %b\n                     Threshold: %b\n                     Spiked:%b", neuron_addresses[0],  decay_rate, source_addresses[0],v_threshold[0], spike[0]);
     end
 
     // Observe the timing on gtkwave
@@ -247,17 +253,17 @@ module testbench;
         
         #40
         source_addresses[0] = 12'b001111111000;
-        // source_addresses[4] = 12'd1;
+        source_addresses[4] = 12'd1;
 
-        // #4
-        // source_addresses[6] = 12'd4; 
-        // source_addresses[4] = 12'd2; 
+        #4
+        source_addresses[6] = 12'd4; 
+        source_addresses[4] = 12'd2; 
 
-        // #4
-        // source_addresses[6] = 12'd5;
+        #4
+        source_addresses[6] = 12'd5;
 
-        // #4
-        // source_addresses[4] = 12'd7; 
+        #4
+        source_addresses[4] = 12'd7; 
 
         #500
         $finish;   
