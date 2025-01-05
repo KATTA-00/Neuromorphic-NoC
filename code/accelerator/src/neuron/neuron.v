@@ -16,7 +16,7 @@ module neuron(
     input wire[31:0] v_threshold,                //threshold value
     input wire[3:0] decay_rate,                 //input decay rate,
     input wire[31:0] membrane_potential_initialization,        // membrane_potential
-    input wire[1:0] mode, //input mode
+    input wire[1:0] model, //input mode
     input wire[31:0]a,     //for izhikevich model
     input wire[31:0]b,     //for izhikevich model
     input wire[31:0]c,      //for izhikevich model
@@ -33,7 +33,7 @@ module neuron(
     potential_decay pd(
         .CLK(CLK),
         .clear(clear),
-        .model(mode),
+        .model(model),
         .neuron_address_initialization(neuron_address),
         .decay_rate(decay_rate),
         .membrane_potential_initialization(membrane_potential_initialization),
@@ -58,7 +58,7 @@ module neuron(
         .decayed_potential(output_potential_decay),
         .final_potential(final_potential),
         .spike(spike),
-        .model(mode),
+        .model(model),
         .a(a),
         .b(b),
         .c(c),

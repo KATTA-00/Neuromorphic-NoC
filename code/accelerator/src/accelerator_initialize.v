@@ -1,9 +1,10 @@
-`include "potential_decay/potential_decay.v"
-`include "mac/mac.v"
+// `include "potential_decay/potential_decay.v"
+// `include "mac/mac.v"
+// `include "potential_adder/potential_adder.v"
 `include "utils/Addition_Subtraction.v"
 `include "utils/Multiplication.v"
-`include "potential_adder/potential_adder.v"
 `include "network_interface/network_interface.v"
+`include "neuron/neuron.v"	// Include the neuron module
 
 `timescale 1ns/100ps
 
@@ -34,57 +35,81 @@ module testbench;
     wire spike[0:number_of_neurons-1];                              //spike signifier from potential decay
     wire[23:0] packet;                          //packet containing neuron address and sources address
 
-    //generate 10 potential decay units
     genvar i;
-    generate
-        for(i=0; i<10; i=i+1) begin
-            potential_decay pd(
-                .CLK(CLK),
-                .clear(clear),
-                .model(model),
-                .neuron_address_initialization(neuron_addresses[i]),
-                .decay_rate(decay_rate),
-                .membrane_potential_initialization(membrane_potential[i]),
-                .output_potential_decay(results_potential_decay[i]),
-                .new_potential(final_potential[i])
-            );
-        end
-    endgenerate
+    // //generate 10 potential decay units
+    // generate
+    //     for(i=0; i<10; i=i+1) begin
+    //         potential_decay pd(
+    //             .CLK(CLK),
+    //             .clear(clear),
+    //             .model(model),
+    //             .neuron_address_initialization(neuron_addresses[i]),
+    //             .decay_rate(decay_rate),
+    //             .membrane_potential_initialization(membrane_potential[i]),
+    //             .output_potential_decay(results_potential_decay[i]),
+    //             .new_potential(final_potential[i])
+    //         );
+    //     end
+    // endgenerate
 
-    //generate 10 accumulators
-    generate
-        for(i=0; i<10; i=i+1) begin
-            mac m(
-                .CLK(CLK),
-                .neuron_address(neuron_addresses[i]),
-                .source_address(source_addresses[i]),
-                .weights_array(weights_arrays[i]),
-                .source_addresses_array(source_addresses_arrays[i]),
-                .clear(clear),
-                .mult_output(results_mac[i])
-            );
-        end
-    endgenerate
+    // //generate 10 accumulators
+    // generate
+    //     for(i=0; i<10; i=i+1) begin
+    //         mac m(
+    //             .CLK(CLK),
+    //             .neuron_address(neuron_addresses[i]),
+    //             .source_address(source_addresses[i]),
+    //             .weights_array(weights_arrays[i]),
+    //             .source_addresses_array(source_addresses_arrays[i]),
+    //             .clear(clear),
+    //             .mult_output(results_mac[i])
+    //         );
+    //     end
+    // endgenerate
 
-    //genrate corresponding 10 potential adders
+    // //genrate corresponding 10 potential adders
+    // generate
+    //     for(i=0; i<10; i=i+1) begin
+    //         potential_adder pa(
+    //             .clear(clear),
+    //             .v_threshold(v_threshold[i]),
+    //             .input_weight(results_mac[i]),
+    //             .decayed_potential(results_potential_decay[i]),
+    //             .model(model),
+    //             .a(a),
+    //             .b(b),
+    //             .c(c),
+    //             .d(d),
+    //             .u_initialize(u_initialize),
+    //             .final_potential(final_potential[i]),
+    //             .spike(spike[i])
+    //         );
+    //     end
+    // endgenerate
+
+    // generate 10 neurons
     generate
         for(i=0; i<10; i=i+1) begin
-            potential_adder pa(
-                .clear(clear),
-                .v_threshold(v_threshold[i]),
-                .input_weight(results_mac[i]),
-                .decayed_potential(results_potential_decay[i]),
-                .model(model),
-                .a(a),
-                .b(b),
-                .c(c),
-                .d(d),
-                .u_initialize(u_initialize),
-                .final_potential(final_potential[i]),
-                .spike(spike[i])
-            );
+          neuron n(
+            .CLK(CLK),
+            .clear(clear),
+            .neuron_address(neuron_addresses[i]),
+            .source_address(source_addresses[i]),
+            .weights_array(weights_arrays[i]),
+            .source_addresses_array(source_addresses_arrays[i]),
+            .v_threshold(v_threshold[i]),
+            .decay_rate(decay_rate),
+            .membrane_potential_initialization(membrane_potential[i]),
+            .model(model),
+            .a(a),
+            .b(b),
+            .c(c),
+            .d(d),
+            .u_initialize(u_initialize),
+            .spike(spike[i])
+          );
         end
-    endgenerate
+    endgenerate    
 
     network_interface ni1(
         .CLK(CLK),

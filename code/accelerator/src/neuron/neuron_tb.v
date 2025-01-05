@@ -13,7 +13,7 @@ module neuron_tb;
     reg [31:0] v_threshold;         // Threshold value
     reg [3:0] decay_rate;           // Input decay rate
     reg [31:0] membrane_potential_initialization; // Membrane potential initialization
-    reg [1:0] mode;                 // Input mode
+    reg [1:0] model;                 // Input mode
     reg [31:0] a;                   // For Izhikevich model
     reg [31:0] b;                   // For Izhikevich model
     reg [31:0] c;                   // For Izhikevich model
@@ -33,7 +33,7 @@ module neuron_tb;
         .v_threshold(v_threshold), 
         .decay_rate(decay_rate), 
         .membrane_potential_initialization(membrane_potential_initialization), 
-        .mode(mode), 
+        .model(model), 
         .a(a), 
         .b(b), 
         .c(c), 
@@ -56,7 +56,7 @@ module neuron_tb;
         CLK_count = 0;
         clear = 1'b0;
         decay_rate = 4'b0010;
-        mode = 2'b00;
+        model = 2'b00;
 
         neuron_address = 12'b000000000000;
 
