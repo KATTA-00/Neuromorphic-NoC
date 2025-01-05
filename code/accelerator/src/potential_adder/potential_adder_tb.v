@@ -1,7 +1,7 @@
 `include "potential_adder/potential_adder.v"
 `timescale 1ns/100ps
 
-module adder_tb;
+module potential_adder_tb;
 
     reg CLK;
     reg [31:0] v_threshold;
