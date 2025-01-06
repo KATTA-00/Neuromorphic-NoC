@@ -65,11 +65,11 @@ module accelerator_tb;
         $monitor(
             $time,
             "  Neuron_address: %b\n                     Decay Rate: %d\n                     Source_address: %b\n                     Threshold: %b\n                     Spiked:%b",
-            neuron_addresses[12*5-1 : 12*4],  // Extract neuron 0's address (first 12 bits)
+            neuron_addresses[11 : 0],  // Extract neuron 0's address (first 12 bits)
             decay_rate,
-            source_addresses[12*5-1 : 12*4], // Extract source address for neuron 0 (first 12 bits)
+            source_addresses[11 : 0], // Extract source address for neuron 0 (first 12 bits)
             v_threshold[31:0],      // Extract threshold for neuron 0 (first 32 bits)
-            spike[4]
+            spike[0]
         );
     end
 
@@ -101,21 +101,20 @@ module accelerator_tb;
         };
 
         // CSR connection pointer initialization
-        connection_pointer_initialization = {
-            5'd19, 5'd18, 5'd17, 5'd15, 5'd14, 5'd12, 5'd10, 5'd8, 5'd5, 5'd3, 5'd0
-        };
+        connection_pointer_initialization = {5'd0, 5'd3, 5'd5, 5'd8, 5'd10, 5'd12, 5'd14, 5'd15, 5'd17, 5'd18, 5'd19};
 
         // Flattened downstream connections
-        downstream_connections_initialization = {
-            12'b111111111100, 12'b111111111011,
-            12'b000000001001, 12'b000000001000,
-            12'b000000001001, 12'b000000001000,
-            12'b000000001001,
-            12'b000000001000, 12'b000000001001,
-            12'b000000000110, 12'b000000000100,
-            12'b000000000111, 12'b000000000101,
-            12'b000000000011, 132'd0
-        };
+        downstream_connections_initialization = {12'b000000000011, 12'b000000000101, 12'b000000000111, 
+        12'b000000000100, 12'b000000000110,
+        12'b000000000100, 12'b000000000101, 12'b000000000110,
+        12'b000000001000, 12'b000000001001,
+        12'b000000001000, 12'b000000001001,
+        12'b000000001000, 12'b000000001001,
+        12'b000000001001,
+        12'b000000001000, 12'b000000001001,
+        12'b111111111011,
+        12'b111111111100,
+        132'd0};
 
         // Flattened membrane potential initialization
         membrane_potential = {
@@ -125,16 +124,16 @@ module accelerator_tb;
 
         // Flattened source address arrays
         source_addresses_arrays = {
-            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7},
-            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7},
-            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7},
-            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7},
-            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7},
-            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7},
-            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7},
-            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7},
-            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7},
-            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7}
+            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7}, // Row 8
+            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7}, // Row 7
+            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7}, // Row 6
+            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7}, // Row 5
+            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7}, // Row 4
+            {12'd1, 12'd2, 12'd5, 12'd0, 12'd0}, // Row 3
+            {12'd0, 12'd4, 12'd5, 12'd6, 12'd7}, // Row 2
+            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7}, // Row 1
+            {12'd3, 12'd4, 12'd5, 12'd6, 12'd7}, // Row 1
+            {12'b001111111000, 12'b111111111111, 12'b111111111111, 12'b111111111111, 12'b111111111111}  // Row 0
         };
 
         // Flattened weights
