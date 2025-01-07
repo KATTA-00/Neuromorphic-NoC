@@ -1,7 +1,7 @@
 `include "utils/Addition_Subtraction.v"
 `include "utils/Multiplication.v"
 `include "accelerator.v"
-`include "utils/define.v"
+// `include "utils/define.v"
 
 `timescale 1ns/100ps
 

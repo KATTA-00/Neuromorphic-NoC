@@ -1,10 +1,10 @@
 // `include "potential_decay/potential_decay.v"
 // `include "mac/mac.v"
 // `include "potential_adder/potential_adder.v"
-// `include "utils/Addition_Subtraction.v"
-// `include "utils/Multiplication.v"
-// `include "network_interface/network_interface.v"
-// `include "neuron/neuron.v"	// Include the neuron module
+`include "utils/Addition_Subtraction.v"
+`include "utils/Multiplication.v"
+`include "network_interface/network_interface.v"
+`include "neuron/neuron.v"	// Include the neuron module
 // `include "utils/define.v"
 
 `timescale 1ns/100ps
@@ -39,10 +39,11 @@ module accelerator(
         source_addresses_reg = source_addresses;
     end
 
+    // generate 10 neurons
     genvar i;
-	generate // Add a name for the generate block
-    gen_neuron_loop: for (i = 0; i < 10; i = i + 1) begin 
-        neuron n (
+    generate
+        for(i=0; i<10; i=i+1) begin
+          neuron n(
             .CLK(CLK),
             .clear(clear),
             .neuron_address(neuron_addresses[12*(i+1)-1:i*12]),
@@ -59,10 +60,9 @@ module accelerator(
             .d(d),
             .u_initialize(u_initialize),
             .spike(spike[i])
-        );
-    end
-	endgenerate
-
+          );
+        end
+    endgenerate    
 
     network_interface ni1(
         .CLK(CLK),
