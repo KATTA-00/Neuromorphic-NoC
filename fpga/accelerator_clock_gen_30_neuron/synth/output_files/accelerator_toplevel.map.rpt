@@ -1,5 +1,5 @@
 Analysis & Synthesis report for accelerator_toplevel
-Fri Jan 10 15:46:29 2025
+Sat Jan 11 13:54:57 2025
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -175,7 +175,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Jan 10 15:46:29 2025      ;
+; Analysis & Synthesis Status        ; Successful - Sat Jan 11 13:54:57 2025      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; accelerator_toplevel                       ;
 ; Top-level Entity Name              ; accelerator_toplevel                       ;
@@ -297,109 +297,109 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                               ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                     ; Library ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------------------------------+---------+
-; ../rtl/potential_decay29.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay29.v        ;         ;
-; ../rtl/potential_decay28.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay28.v        ;         ;
-; ../rtl/potential_decay27.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay27.v        ;         ;
-; ../rtl/potential_decay26.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay26.v        ;         ;
-; ../rtl/potential_decay25.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay25.v        ;         ;
-; ../rtl/potential_decay24.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay24.v        ;         ;
-; ../rtl/potential_decay23.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay23.v        ;         ;
-; ../rtl/potential_decay22.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay22.v        ;         ;
-; ../rtl/potential_decay21.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay21.v        ;         ;
-; ../rtl/potential_decay20.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay20.v        ;         ;
-; ../rtl/potential_adder29.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder29.v        ;         ;
-; ../rtl/potential_adder28.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder28.v        ;         ;
-; ../rtl/potential_adder27.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder27.v        ;         ;
-; ../rtl/potential_adder26.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder26.v        ;         ;
-; ../rtl/potential_adder25.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder25.v        ;         ;
-; ../rtl/potential_adder24.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder24.v        ;         ;
-; ../rtl/potential_adder23.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder23.v        ;         ;
-; ../rtl/potential_adder22.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder22.v        ;         ;
-; ../rtl/potential_adder21.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder21.v        ;         ;
-; ../rtl/potential_adder20.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder20.v        ;         ;
-; ../rtl/mac29.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac29.v                    ;         ;
-; ../rtl/mac28.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac28.v                    ;         ;
-; ../rtl/mac27.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac27.v                    ;         ;
-; ../rtl/mac26.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac26.v                    ;         ;
-; ../rtl/mac25.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac25.v                    ;         ;
-; ../rtl/mac24.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac24.v                    ;         ;
-; ../rtl/mac23.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac23.v                    ;         ;
-; ../rtl/mac22.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac22.v                    ;         ;
-; ../rtl/mac21.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac21.v                    ;         ;
-; ../rtl/mac20.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac20.v                    ;         ;
-; ../rtl/potential_decay19.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay19.v        ;         ;
-; ../rtl/potential_decay18.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay18.v        ;         ;
-; ../rtl/potential_decay17.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay17.v        ;         ;
-; ../rtl/potential_decay16.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay16.v        ;         ;
-; ../rtl/potential_decay15.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay15.v        ;         ;
-; ../rtl/potential_decay14.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay14.v        ;         ;
-; ../rtl/potential_decay13.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay13.v        ;         ;
-; ../rtl/potential_decay12.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay12.v        ;         ;
-; ../rtl/potential_decay11.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay11.v        ;         ;
-; ../rtl/potential_decay10.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay10.v        ;         ;
-; ../rtl/potential_adder19.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder19.v        ;         ;
-; ../rtl/potential_adder18.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder18.v        ;         ;
-; ../rtl/potential_adder17.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder17.v        ;         ;
-; ../rtl/potential_adder16.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder16.v        ;         ;
-; ../rtl/potential_adder15.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder15.v        ;         ;
-; ../rtl/potential_adder14.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder14.v        ;         ;
-; ../rtl/potential_adder13.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder13.v        ;         ;
-; ../rtl/potential_adder12.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder12.v        ;         ;
-; ../rtl/potential_adder11.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder11.v        ;         ;
-; ../rtl/potential_adder10.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder10.v        ;         ;
-; ../rtl/mac19.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac19.v                    ;         ;
-; ../rtl/mac18.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac18.v                    ;         ;
-; ../rtl/mac17.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac17.v                    ;         ;
-; ../rtl/mac16.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac16.v                    ;         ;
-; ../rtl/mac15.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac15.v                    ;         ;
-; ../rtl/mac14.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac14.v                    ;         ;
-; ../rtl/mac13.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac13.v                    ;         ;
-; ../rtl/mac12.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac12.v                    ;         ;
-; ../rtl/mac11.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac11.v                    ;         ;
-; ../rtl/mac10.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac10.v                    ;         ;
-; ../rtl/potential_adder9.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder9.v         ;         ;
-; ../rtl/potential_decay9.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay9.v         ;         ;
-; ../rtl/mac9.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac9.v                     ;         ;
-; ../rtl/potential_adder8.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder8.v         ;         ;
-; ../rtl/potential_decay8.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay8.v         ;         ;
-; ../rtl/mac8.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac8.v                     ;         ;
-; ../rtl/potential_adder7.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder7.v         ;         ;
-; ../rtl/potential_decay7.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay7.v         ;         ;
-; ../rtl/mac7.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac7.v                     ;         ;
-; ../rtl/potential_adder6.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder6.v         ;         ;
-; ../rtl/mac6.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac6.v                     ;         ;
-; ../rtl/potential_decay6.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay6.v         ;         ;
-; ../rtl/potential_adder5.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder5.v         ;         ;
-; ../rtl/potential_decay5.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay5.v         ;         ;
-; ../rtl/mac5.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac5.v                     ;         ;
-; ../rtl/potential_adder4.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder4.v         ;         ;
-; ../rtl/potential_decay4.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay4.v         ;         ;
-; ../rtl/mac4.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac4.v                     ;         ;
-; ../rtl/potential_adder3.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder3.v         ;         ;
-; ../rtl/potential_decay3.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay3.v         ;         ;
-; ../rtl/mac3.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac3.v                     ;         ;
-; ../rtl/potential_adder2.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder2.v         ;         ;
-; ../rtl/potential_decay2.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay2.v         ;         ;
-; ../rtl/mac2.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac2.v                     ;         ;
-; ../rtl/potential_adder1.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder1.v         ;         ;
-; ../rtl/potential_decay1.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay1.v         ;         ;
-; ../rtl/mac1.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac1.v                     ;         ;
-; ../rtl/clock_generator.v         ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/clock_generator.v          ;         ;
-; ../rtl/network_interface_test.v  ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/network_interface_test.v   ;         ;
-; ../rtl/network_interface.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/network_interface.v        ;         ;
-; ../rtl/potential_adder.v         ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_adder.v          ;         ;
-; ../rtl/comparator.v              ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/comparator.v               ;         ;
-; ../rtl/Priority_Encoder.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/Priority_Encoder.v         ;         ;
-; ../rtl/potential_decay.v         ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/potential_decay.v          ;         ;
-; ../rtl/mac.v                     ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/mac.v                      ;         ;
-; ../rtl/Addition_Subtraction.v    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/rtl/Addition_Subtraction.v     ;         ;
-; accelerator_toplevel.bdf         ; yes             ; User Block Diagram/Schematic File  ; E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/synth/accelerator_toplevel.bdf ;         ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                            ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                                  ; Library ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------------------------------------+---------+
+; ../rtl/potential_decay29.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay29.v        ;         ;
+; ../rtl/potential_decay28.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay28.v        ;         ;
+; ../rtl/potential_decay27.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay27.v        ;         ;
+; ../rtl/potential_decay26.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay26.v        ;         ;
+; ../rtl/potential_decay25.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay25.v        ;         ;
+; ../rtl/potential_decay24.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay24.v        ;         ;
+; ../rtl/potential_decay23.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay23.v        ;         ;
+; ../rtl/potential_decay22.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay22.v        ;         ;
+; ../rtl/potential_decay21.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay21.v        ;         ;
+; ../rtl/potential_decay20.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay20.v        ;         ;
+; ../rtl/potential_adder29.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder29.v        ;         ;
+; ../rtl/potential_adder28.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder28.v        ;         ;
+; ../rtl/potential_adder27.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder27.v        ;         ;
+; ../rtl/potential_adder26.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder26.v        ;         ;
+; ../rtl/potential_adder25.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder25.v        ;         ;
+; ../rtl/potential_adder24.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder24.v        ;         ;
+; ../rtl/potential_adder23.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder23.v        ;         ;
+; ../rtl/potential_adder22.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder22.v        ;         ;
+; ../rtl/potential_adder21.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder21.v        ;         ;
+; ../rtl/potential_adder20.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder20.v        ;         ;
+; ../rtl/mac29.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac29.v                    ;         ;
+; ../rtl/mac28.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac28.v                    ;         ;
+; ../rtl/mac27.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac27.v                    ;         ;
+; ../rtl/mac26.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac26.v                    ;         ;
+; ../rtl/mac25.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac25.v                    ;         ;
+; ../rtl/mac24.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac24.v                    ;         ;
+; ../rtl/mac23.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac23.v                    ;         ;
+; ../rtl/mac22.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac22.v                    ;         ;
+; ../rtl/mac21.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac21.v                    ;         ;
+; ../rtl/mac20.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac20.v                    ;         ;
+; ../rtl/potential_decay19.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay19.v        ;         ;
+; ../rtl/potential_decay18.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay18.v        ;         ;
+; ../rtl/potential_decay17.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay17.v        ;         ;
+; ../rtl/potential_decay16.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay16.v        ;         ;
+; ../rtl/potential_decay15.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay15.v        ;         ;
+; ../rtl/potential_decay14.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay14.v        ;         ;
+; ../rtl/potential_decay13.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay13.v        ;         ;
+; ../rtl/potential_decay12.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay12.v        ;         ;
+; ../rtl/potential_decay11.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay11.v        ;         ;
+; ../rtl/potential_decay10.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay10.v        ;         ;
+; ../rtl/potential_adder19.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder19.v        ;         ;
+; ../rtl/potential_adder18.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder18.v        ;         ;
+; ../rtl/potential_adder17.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder17.v        ;         ;
+; ../rtl/potential_adder16.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder16.v        ;         ;
+; ../rtl/potential_adder15.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder15.v        ;         ;
+; ../rtl/potential_adder14.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder14.v        ;         ;
+; ../rtl/potential_adder13.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder13.v        ;         ;
+; ../rtl/potential_adder12.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder12.v        ;         ;
+; ../rtl/potential_adder11.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder11.v        ;         ;
+; ../rtl/potential_adder10.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder10.v        ;         ;
+; ../rtl/mac19.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac19.v                    ;         ;
+; ../rtl/mac18.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac18.v                    ;         ;
+; ../rtl/mac17.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac17.v                    ;         ;
+; ../rtl/mac16.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac16.v                    ;         ;
+; ../rtl/mac15.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac15.v                    ;         ;
+; ../rtl/mac14.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac14.v                    ;         ;
+; ../rtl/mac13.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac13.v                    ;         ;
+; ../rtl/mac12.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac12.v                    ;         ;
+; ../rtl/mac11.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac11.v                    ;         ;
+; ../rtl/mac10.v                   ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac10.v                    ;         ;
+; ../rtl/potential_adder9.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder9.v         ;         ;
+; ../rtl/potential_decay9.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay9.v         ;         ;
+; ../rtl/mac9.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac9.v                     ;         ;
+; ../rtl/potential_adder8.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder8.v         ;         ;
+; ../rtl/potential_decay8.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay8.v         ;         ;
+; ../rtl/mac8.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac8.v                     ;         ;
+; ../rtl/potential_adder7.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder7.v         ;         ;
+; ../rtl/potential_decay7.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay7.v         ;         ;
+; ../rtl/mac7.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac7.v                     ;         ;
+; ../rtl/potential_adder6.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder6.v         ;         ;
+; ../rtl/mac6.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac6.v                     ;         ;
+; ../rtl/potential_decay6.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay6.v         ;         ;
+; ../rtl/potential_adder5.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder5.v         ;         ;
+; ../rtl/potential_decay5.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay5.v         ;         ;
+; ../rtl/mac5.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac5.v                     ;         ;
+; ../rtl/potential_adder4.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder4.v         ;         ;
+; ../rtl/potential_decay4.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay4.v         ;         ;
+; ../rtl/mac4.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac4.v                     ;         ;
+; ../rtl/potential_adder3.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder3.v         ;         ;
+; ../rtl/potential_decay3.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay3.v         ;         ;
+; ../rtl/mac3.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac3.v                     ;         ;
+; ../rtl/potential_adder2.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder2.v         ;         ;
+; ../rtl/potential_decay2.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay2.v         ;         ;
+; ../rtl/mac2.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac2.v                     ;         ;
+; ../rtl/potential_adder1.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder1.v         ;         ;
+; ../rtl/potential_decay1.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay1.v         ;         ;
+; ../rtl/mac1.v                    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac1.v                     ;         ;
+; ../rtl/clock_generator.v         ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/clock_generator.v          ;         ;
+; ../rtl/network_interface_test.v  ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/network_interface_test.v   ;         ;
+; ../rtl/network_interface.v       ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/network_interface.v        ;         ;
+; ../rtl/potential_adder.v         ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder.v          ;         ;
+; ../rtl/comparator.v              ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/comparator.v               ;         ;
+; ../rtl/Priority_Encoder.v        ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/Priority_Encoder.v         ;         ;
+; ../rtl/potential_decay.v         ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay.v          ;         ;
+; ../rtl/mac.v                     ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/mac.v                      ;         ;
+; ../rtl/Addition_Subtraction.v    ; yes             ; User Verilog HDL File              ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/rtl/Addition_Subtraction.v     ;         ;
+; accelerator_toplevel.bdf         ; yes             ; User Block Diagram/Schematic File  ; E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/synth/accelerator_toplevel.bdf ;         ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------------------------------------------------+
@@ -2156,7 +2156,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:06     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -2166,210 +2166,211 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Fri Jan 10 15:46:07 2025
+    Info: Processing started: Sat Jan 11 13:54:46 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off accelerator_toplevel -c accelerator_toplevel
+Critical Warning (138067): Current license file does not support incremental compilation. The Quartus II software removes all the user-specified design partitions in the design automatically.
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay29.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay29.v
     Info (12023): Found entity 1: potential_decay29
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay28.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay28.v
     Info (12023): Found entity 1: potential_decay28
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay27.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay27.v
     Info (12023): Found entity 1: potential_decay27
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay26.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay26.v
     Info (12023): Found entity 1: potential_decay26
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay25.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay25.v
     Info (12023): Found entity 1: potential_decay25
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay24.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay24.v
     Info (12023): Found entity 1: potential_decay24
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay23.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay23.v
     Info (12023): Found entity 1: potential_decay23
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay22.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay22.v
     Info (12023): Found entity 1: potential_decay22
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay21.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay21.v
     Info (12023): Found entity 1: potential_decay21
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay20.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay20.v
     Info (12023): Found entity 1: potential_decay20
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder29.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder29.v
     Info (12023): Found entity 1: potential_adder29
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder28.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder28.v
     Info (12023): Found entity 1: potential_adder28
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder27.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder27.v
     Info (12023): Found entity 1: potential_adder27
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder26.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder26.v
     Info (12023): Found entity 1: potential_adder26
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder25.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder25.v
     Info (12023): Found entity 1: potential_adder25
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder24.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder24.v
     Info (12023): Found entity 1: potential_adder24
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder23.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder23.v
     Info (12023): Found entity 1: potential_adder23
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder22.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder22.v
     Info (12023): Found entity 1: potential_adder22
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder21.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder21.v
     Info (12023): Found entity 1: potential_adder21
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder20.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder20.v
     Info (12023): Found entity 1: potential_adder20
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac29.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac29.v
     Info (12023): Found entity 1: mac29
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac28.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac28.v
     Info (12023): Found entity 1: mac28
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac27.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac27.v
     Info (12023): Found entity 1: mac27
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac26.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac26.v
     Info (12023): Found entity 1: mac26
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac25.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac25.v
     Info (12023): Found entity 1: mac25
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac24.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac24.v
     Info (12023): Found entity 1: mac24
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac23.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac23.v
     Info (12023): Found entity 1: mac23
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac22.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac22.v
     Info (12023): Found entity 1: mac22
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac21.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac21.v
     Info (12023): Found entity 1: mac21
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac20.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac20.v
     Info (12023): Found entity 1: mac20
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay19.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay19.v
     Info (12023): Found entity 1: potential_decay19
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay18.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay18.v
     Info (12023): Found entity 1: potential_decay18
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay17.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay17.v
     Info (12023): Found entity 1: potential_decay17
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay16.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay16.v
     Info (12023): Found entity 1: potential_decay16
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay15.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay15.v
     Info (12023): Found entity 1: potential_decay15
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay14.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay14.v
     Info (12023): Found entity 1: potential_decay14
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay13.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay13.v
     Info (12023): Found entity 1: potential_decay13
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay12.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay12.v
     Info (12023): Found entity 1: potential_decay12
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay11.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay11.v
     Info (12023): Found entity 1: potential_decay11
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay10.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay10.v
     Info (12023): Found entity 1: potential_decay10
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder19.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder19.v
     Info (12023): Found entity 1: potential_adder19
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder18.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder18.v
     Info (12023): Found entity 1: potential_adder18
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder17.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder17.v
     Info (12023): Found entity 1: potential_adder17
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder16.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder16.v
     Info (12023): Found entity 1: potential_adder16
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder15.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder15.v
     Info (12023): Found entity 1: potential_adder15
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder14.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder14.v
     Info (12023): Found entity 1: potential_adder14
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder13.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder13.v
     Info (12023): Found entity 1: potential_adder13
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder12.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder12.v
     Info (12023): Found entity 1: potential_adder12
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder11.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder11.v
     Info (12023): Found entity 1: potential_adder11
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder10.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder10.v
     Info (12023): Found entity 1: potential_adder10
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac19.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac19.v
     Info (12023): Found entity 1: mac19
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac18.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac18.v
     Info (12023): Found entity 1: mac18
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac17.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac17.v
     Info (12023): Found entity 1: mac17
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac16.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac16.v
     Info (12023): Found entity 1: mac16
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac15.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac15.v
     Info (12023): Found entity 1: mac15
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac14.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac14.v
     Info (12023): Found entity 1: mac14
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac13.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac13.v
     Info (12023): Found entity 1: mac13
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac12.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac12.v
     Info (12023): Found entity 1: mac12
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac11.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac11.v
     Info (12023): Found entity 1: mac11
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac10.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac10.v
     Info (12023): Found entity 1: mac10
 Info (12021): Found 1 design units, including 1 entities, in source file accelerator_toplevel_2.bdf
     Info (12023): Found entity 1: accelerator_toplevel_2
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder9.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder9.v
     Info (12023): Found entity 1: potential_adder9
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay9.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay9.v
     Info (12023): Found entity 1: potential_decay9
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac9.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac9.v
     Info (12023): Found entity 1: mac9
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder8.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder8.v
     Info (12023): Found entity 1: potential_adder8
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay8.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay8.v
     Info (12023): Found entity 1: potential_decay8
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac8.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac8.v
     Info (12023): Found entity 1: mac8
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder7.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder7.v
     Info (12023): Found entity 1: potential_adder7
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay7.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay7.v
     Info (12023): Found entity 1: potential_decay7
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac7.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac7.v
     Info (12023): Found entity 1: mac7
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder6.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder6.v
     Info (12023): Found entity 1: potential_adder6
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac6.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac6.v
     Info (12023): Found entity 1: mac6
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay6.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay6.v
     Info (12023): Found entity 1: potential_decay6
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder5.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder5.v
     Info (12023): Found entity 1: potential_adder5
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay5.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay5.v
     Info (12023): Found entity 1: potential_decay5
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac5.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac5.v
     Info (12023): Found entity 1: mac5
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder4.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder4.v
     Info (12023): Found entity 1: potential_adder4
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay4.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay4.v
     Info (12023): Found entity 1: potential_decay4
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac4.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac4.v
     Info (12023): Found entity 1: mac4
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder3.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder3.v
     Info (12023): Found entity 1: potential_adder3
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay3.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay3.v
     Info (12023): Found entity 1: potential_decay3
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac3.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac3.v
     Info (12023): Found entity 1: mac3
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder2.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder2.v
     Info (12023): Found entity 1: potential_adder2
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay2.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay2.v
     Info (12023): Found entity 1: potential_decay2
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac2.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac2.v
     Info (12023): Found entity 1: mac2
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder1.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder1.v
     Info (12023): Found entity 1: potential_adder1
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay1.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay1.v
     Info (12023): Found entity 1: potential_decay1
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac1.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac1.v
     Info (12023): Found entity 1: mac1
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/clock_generator.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/clock_generator.v
     Info (12023): Found entity 1: clock_generator
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/network_interface_test.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/network_interface_test.v
     Info (12023): Found entity 1: network_interface_test
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/network_interface.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/network_interface.v
     Info (12023): Found entity 1: network_interface_new
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder_test.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder_test.v
     Info (12023): Found entity 1: potential_adder_test
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_adder.v
     Info (12023): Found entity 1: potential_adder
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/comparator.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/comparator.v
     Info (12023): Found entity 1: comparator
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/priority_encoder.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/priority_encoder.v
     Info (12023): Found entity 1: priority_encoder
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay_test.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay_test.v
     Info (12023): Found entity 1: potential_decay_test
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/potential_decay.v
     Info (12023): Found entity 1: potential_decay
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/multiplication.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/multiplication.v
     Info (12023): Found entity 1: Multiplication
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac_testbench.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac_testbench.v
     Info (12023): Found entity 1: mac_TESTBENCH
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/mac.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/mac.v
     Info (12023): Found entity 1: mac
-Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/fyp-fpga/accelerator_clock_gen_30_neuron/rtl/addition_subtraction.v
+Info (12021): Found 1 design units, including 1 entities, in source file /education/academic/projects/fyp/codes/neuromorphic-noc/fpga/accelerator_clock_gen_30_neuron/rtl/addition_subtraction.v
     Info (12023): Found entity 1: Addition_Subtraction
 Info (12021): Found 1 design units, including 1 entities, in source file accelerator_toplevel.bdf
     Info (12023): Found entity 1: accelerator_toplevel
@@ -12396,23 +12397,24 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "out1" is stuck at GND
     Warning (13410): Pin "out0" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
-Info (144001): Generated suppressed messages file E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/synth/output_files/accelerator_toplevel.map.smsg
+Info (144001): Generated suppressed messages file E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/synth/output_files/accelerator_toplevel.map.smsg
+Critical Warning (138067): Current license file does not support incremental compilation. The Quartus II software removes all the user-specified design partitions in the design automatically.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 1105 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 1 input pins
     Info (21059): Implemented 21 output pins
     Info (21061): Implemented 1083 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1794 warnings
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1796 warnings
     Info: Peak virtual memory: 4741 megabytes
-    Info: Processing ended: Fri Jan 10 15:46:30 2025
-    Info: Elapsed time: 00:00:23
-    Info: Total CPU time (on all processors): 00:00:13
+    Info: Processing ended: Sat Jan 11 13:54:57 2025
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:10
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in E:/Education/Academic/Projects/fyp/Codes/FYP-FPGA/accelerator_clock_gen_30_neuron/synth/output_files/accelerator_toplevel.map.smsg.
+The suppressed messages can be found in E:/Education/Academic/Projects/fyp/Codes/Neuromorphic-NoC/fpga/accelerator_clock_gen_30_neuron/synth/output_files/accelerator_toplevel.map.smsg.
 
 

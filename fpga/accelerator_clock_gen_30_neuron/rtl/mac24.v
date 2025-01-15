@@ -4,8 +4,8 @@
 
 /*  Floating point addition
     Moving through the next four connections ?*/
-`timescale 1ns/100ps
 // `include "Addition_Subtraction.v"
+`timescale 1ns/100ps
  
 
 module mac24(

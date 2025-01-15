@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for accelerator_toplevel
-Fri Jan 10 11:18:27 2025
+Sat Jan 11 13:55:46 2025
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -120,12 +120,13 @@ applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 2.50        ;
+; Average used               ; 2.17        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;  50.0%      ;
+;     Processor 2            ;  50.0%      ;
+;     Processors 3-4         ;  33.3%      ;
 ;     Processors 5-8         ;   0.0%      ;
 +----------------------------+-------------+
 
@@ -323,8 +324,8 @@ HTML report is unavailable in plain text report export.
 ; -5.113 ; clock_generator:inst|SET_Count[0]  ; clock_generator:inst|set           ; input_clock  ; input_clock ; 1.000        ; -0.402     ; 5.709      ;
 ; -5.105 ; clock_generator:inst|CLK_count[23] ; clock_generator:inst|clear         ; input_clock  ; input_clock ; 1.000        ; -0.096     ; 6.007      ;
 ; -5.103 ; clock_generator:inst|CLK_count[0]  ; clock_generator:inst|clear         ; input_clock  ; input_clock ; 1.000        ; -0.095     ; 6.006      ;
-; -5.069 ; clock_generator:inst|CLK_count[1]  ; clock_generator:inst|clear         ; input_clock  ; input_clock ; 1.000        ; -0.095     ; 5.972      ;
 ; -5.069 ; clock_generator:inst|SET_Count[3]  ; clock_generator:inst|set           ; input_clock  ; input_clock ; 1.000        ; -0.402     ; 5.665      ;
+; -5.069 ; clock_generator:inst|CLK_count[1]  ; clock_generator:inst|clear         ; input_clock  ; input_clock ; 1.000        ; -0.095     ; 5.972      ;
 ; -5.027 ; clock_generator:inst|CLK_count[22] ; clock_generator:inst|clear         ; input_clock  ; input_clock ; 1.000        ; -0.096     ; 5.929      ;
 ; -4.982 ; clock_generator:inst|SET_Count[2]  ; clock_generator:inst|set           ; input_clock  ; input_clock ; 1.000        ; -0.402     ; 5.578      ;
 ; -4.968 ; clock_generator:inst|CLK_count[2]  ; clock_generator:inst|clear         ; input_clock  ; input_clock ; 1.000        ; -0.095     ; 5.871      ;
@@ -409,8 +410,8 @@ HTML report is unavailable in plain text report export.
 ; -3.749 ; clock_generator:inst|CLK_count[29] ; clock_generator:inst|CLK_count[28] ; input_clock  ; input_clock ; 1.000        ; -0.081     ; 4.666      ;
 ; -3.720 ; clock_generator:inst|CLK_count[28] ; clock_generator:inst|CLK_count[28] ; input_clock  ; input_clock ; 1.000        ; -0.082     ; 4.636      ;
 ; -3.712 ; clock_generator:inst|CLK_count[23] ; clock_generator:inst|CLK_count[21] ; input_clock  ; input_clock ; 1.000        ; -0.081     ; 4.629      ;
-; -3.706 ; clock_generator:inst|CLK_count[29] ; clock_generator:inst|CLK_count[0]  ; input_clock  ; input_clock ; 1.000        ; -0.081     ; 4.623      ;
 ; -3.706 ; clock_generator:inst|SET_Count[20] ; clock_generator:inst|set           ; input_clock  ; input_clock ; 1.000        ; -0.402     ; 4.302      ;
+; -3.706 ; clock_generator:inst|CLK_count[29] ; clock_generator:inst|CLK_count[0]  ; input_clock  ; input_clock ; 1.000        ; -0.081     ; 4.623      ;
 ; -3.702 ; clock_generator:inst|CLK_count[22] ; clock_generator:inst|CLK_count[24] ; input_clock  ; input_clock ; 1.000        ; -0.081     ; 4.619      ;
 ; -3.698 ; clock_generator:inst|CLK_count[17] ; clock_generator:inst|CLK_count[28] ; input_clock  ; input_clock ; 1.000        ; -0.081     ; 4.615      ;
 ; -3.696 ; clock_generator:inst|CLK_count[10] ; clock_generator:inst|CLK_count[28] ; input_clock  ; input_clock ; 1.000        ; -0.081     ; 4.613      ;
@@ -589,8 +590,8 @@ HTML report is unavailable in plain text report export.
 ; 0.659  ; clock_generator:inst|CLK_count[20] ; clock_generator:inst|CLK_count[20] ; input_clock                ; input_clock ; 0.000        ; 0.081      ; 0.926      ;
 ; 0.659  ; clock_generator:inst|CLK_count[12] ; clock_generator:inst|CLK_count[12] ; input_clock                ; input_clock ; 0.000        ; 0.081      ; 0.926      ;
 ; 0.659  ; clock_generator:inst|CLK_count[10] ; clock_generator:inst|CLK_count[10] ; input_clock                ; input_clock ; 0.000        ; 0.081      ; 0.926      ;
-; 0.660  ; clock_generator:inst|SET_Count[0]  ; clock_generator:inst|SET_Count[0]  ; input_clock                ; input_clock ; 0.000        ; 0.080      ; 0.926      ;
 ; 0.660  ; clock_generator:inst|CLK_count[26] ; clock_generator:inst|CLK_count[26] ; input_clock                ; input_clock ; 0.000        ; 0.081      ; 0.927      ;
+; 0.660  ; clock_generator:inst|SET_Count[0]  ; clock_generator:inst|SET_Count[0]  ; input_clock                ; input_clock ; 0.000        ; 0.080      ; 0.926      ;
 ; 0.950  ; clock_generator:inst|SET_Count[13] ; clock_generator:inst|SET_Count[14] ; input_clock                ; input_clock ; 0.000        ; 0.080      ; 1.216      ;
 ; 0.950  ; clock_generator:inst|SET_Count[15] ; clock_generator:inst|SET_Count[16] ; input_clock                ; input_clock ; 0.000        ; 0.080      ; 1.216      ;
 ; 0.950  ; clock_generator:inst|SET_Count[3]  ; clock_generator:inst|SET_Count[4]  ; input_clock                ; input_clock ; 0.000        ; 0.080      ; 1.216      ;
@@ -632,8 +633,8 @@ HTML report is unavailable in plain text report export.
 ; 0.970  ; clock_generator:inst|SET_Count[10] ; clock_generator:inst|SET_Count[12] ; input_clock                ; input_clock ; 0.000        ; 0.080      ; 1.236      ;
 ; 0.970  ; clock_generator:inst|SET_Count[16] ; clock_generator:inst|SET_Count[18] ; input_clock                ; input_clock ; 0.000        ; 0.079      ; 1.235      ;
 ; 0.970  ; clock_generator:inst|SET_Count[18] ; clock_generator:inst|SET_Count[20] ; input_clock                ; input_clock ; 0.000        ; 0.079      ; 1.235      ;
-; 0.971  ; clock_generator:inst|SET_Count[20] ; clock_generator:inst|SET_Count[22] ; input_clock                ; input_clock ; 0.000        ; 0.079      ; 1.236      ;
-; 0.971  ; clock_generator:inst|SET_Count[8]  ; clock_generator:inst|SET_Count[10] ; input_clock                ; input_clock ; 0.000        ; 0.080      ; 1.237      ;
+; 0.971  ; clock_generator:inst|CLK_count[13] ; clock_generator:inst|CLK_count[14] ; input_clock                ; input_clock ; 0.000        ; 0.081      ; 1.238      ;
+; 0.971  ; clock_generator:inst|CLK_count[3]  ; clock_generator:inst|CLK_count[4]  ; input_clock                ; input_clock ; 0.000        ; 0.081      ; 1.238      ;
 +--------+------------------------------------+------------------------------------+----------------------------+-------------+--------------+------------+------------+
 
 
@@ -2050,10 +2051,10 @@ No synchronizer chains to report.
 ; 2.035  ; potential_decay:inst3|output_potential_decay_LIFmac0[27] ; potential_adder:inst5|final_potential[27]                ; clock_generator:inst|clear ; clock_generator:inst|clear ; -0.500       ; 0.007      ; 1.562      ;
 ; 2.124  ; potential_decay:inst3|output_potential_decay_LIFmac0[30] ; potential_adder:inst5|final_potential[23]                ; clock_generator:inst|clear ; clock_generator:inst|clear ; -0.500       ; 0.014      ; 1.658      ;
 ; 2.165  ; potential_decay:inst3|output_potential_decay_LIFmac0[31] ; potential_adder:inst5|final_potential[18]                ; clock_generator:inst|clear ; clock_generator:inst|clear ; -0.500       ; -0.002     ; 1.683      ;
-; 2.167  ; potential_decay:inst3|output_potential_decay_LIFmac0[31] ; potential_adder:inst5|final_potential[29]                ; clock_generator:inst|clear ; clock_generator:inst|clear ; -0.500       ; 0.001      ; 1.688      ;
-; 2.167  ; potential_decay:inst3|output_potential_decay_LIFmac0[19] ; potential_adder:inst5|final_potential[31]                ; clock_generator:inst|clear ; clock_generator:inst|clear ; -0.500       ; -0.012     ; 1.675      ;
 ; 2.167  ; potential_decay:inst3|output_potential_decay_LIFmac0[21] ; potential_adder:inst5|final_potential[31]                ; clock_generator:inst|clear ; clock_generator:inst|clear ; -0.500       ; -0.027     ; 1.660      ;
 ; 2.167  ; potential_decay:inst3|output_potential_decay_LIFmac0[23] ; potential_adder:inst5|final_potential[23]                ; clock_generator:inst|clear ; clock_generator:inst|clear ; -0.500       ; 0.023      ; 1.710      ;
+; 2.167  ; potential_decay:inst3|output_potential_decay_LIFmac0[31] ; potential_adder:inst5|final_potential[29]                ; clock_generator:inst|clear ; clock_generator:inst|clear ; -0.500       ; 0.001      ; 1.688      ;
+; 2.167  ; potential_decay:inst3|output_potential_decay_LIFmac0[19] ; potential_adder:inst5|final_potential[31]                ; clock_generator:inst|clear ; clock_generator:inst|clear ; -0.500       ; -0.012     ; 1.675      ;
 ; 2.170  ; potential_decay:inst3|output_potential_decay_LIFmac0[24] ; potential_adder:inst5|final_potential[24]                ; clock_generator:inst|clear ; clock_generator:inst|clear ; -0.500       ; 0.012      ; 1.702      ;
 ; 2.193  ; potential_decay:inst3|output_potential_decay_LIFmac0[31] ; potential_adder:inst5|final_potential[24]                ; clock_generator:inst|clear ; clock_generator:inst|clear ; -0.500       ; 0.006      ; 1.719      ;
 ; 2.211  ; potential_decay:inst3|output_potential_decay_LIFmac0[29] ; potential_adder:inst5|final_potential[29]                ; clock_generator:inst|clear ; clock_generator:inst|clear ; -0.500       ; 0.008      ; 1.739      ;
@@ -2722,7 +2723,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Fri Jan 10 11:18:17 2025
+    Info: Processing started: Sat Jan 11 13:55:40 2025
 Info: Command: quartus_sta accelerator_toplevel -c accelerator_toplevel
 Info: qsta_default_script.tcl version: #1
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
@@ -2823,9 +2824,9 @@ Info (332146): Worst-case minimum pulse width slack is -3.000
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4762 megabytes
-    Info: Processing ended: Fri Jan 10 11:18:27 2025
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:08
+    Info: Peak virtual memory: 4750 megabytes
+    Info: Processing ended: Sat Jan 11 13:55:46 2025
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:06
 
 

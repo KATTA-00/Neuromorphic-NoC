@@ -4,12 +4,16 @@
 // `include "utils/Addition_Subtraction.v"
 // `include "utils/Multiplication.v"
 `include "network_interface/network_interface.v"
-// `include "neuron/neuron.v"	// Include the neuron module
+`include "neuron/neuron.v"	// Include the neuron module
 // `include "utils/define.v"
+
+// `define NUMBER_OF_NEURON_10 10
 
 `timescale 1ns/100ps
 
-module accelerator(
+module accelerator #(
+    parameter NUMBER_OF_NEURON_10 = 10
+)(
     input wire CLK,
     input wire clear,
     input wire[3:0] decay_rate,
@@ -41,7 +45,7 @@ module accelerator(
 
     generate
     genvar i; // Declare the generate variable
-    for (i = 0; i < 10; i = i + 1) begin : gen_neuron_loop // Add a name for the generate block
+    for (i = 0; i < NUMBER_OF_NEURON_10; i = i + 1) begin : gen_neuron_loop // Add a name for the generate block
         neuron n (
             .CLK(CLK),
             .clear(clear),
